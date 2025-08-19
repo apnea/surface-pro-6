@@ -10,5 +10,8 @@ install linux on surface pro 6
     - resolution: ```nmcli general``` and ```inxi -N```, latter shows Marvell wifi card. Download https://archlinux.org/packages/core/any/linux-firmware-marvell/ onto usb stick and install
   - issue: bluetooth hw not recognised
     - resolution: bluetooth hw on Marvell card, fixed by previous step
-  
-Next: https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
+- https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup
+  - turns out surface kernel is recent but trails cachyos by a few months
+  - fixes touch screen
+- libcamera et al
+  - fixes camera
