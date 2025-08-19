@@ -9,4 +9,5 @@ install linux on surface pro 6
   - issue: wifi hw not recognised
     - resolution: ```nmcli general``` and ```inxi -N```, latter shows Marvell wifi card. Download https://archlinux.org/packages/core/any/linux-firmware-marvell/ onto usb stick and install
   - issue: bluetooth hw not recognised
-  - 
+    - resolution: bluetooth hw on Marvell card, fixed by previous step
+  
